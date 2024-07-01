@@ -55,7 +55,6 @@ axios - Promise-based HTTP client for the browser and Node.js.
 
 - Tests use Jest and Testing Library for React.
 
-- Run tests with the command:
 
 
 
