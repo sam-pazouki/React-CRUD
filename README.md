@@ -62,8 +62,8 @@ Open your browser and visit http://localhost:3000 to view the application.
 graphql
 Copy code
 src/
-├── components/         # Reusable UI components
-│   ├── BookForm.tsx    # Form for adding/editing books
+- ├── components/         # Reusable UI components
+- │   ├── BookForm.tsx    # Form for adding/editing books
 │   ├── BookList.tsx    # Component for displaying list of books
 ├── pages/              # Components representing different pages
 │   ├── AddBookPage.tsx # Page for adding a new book
@@ -103,13 +103,13 @@ CSS Modules - Scoped CSS styling.
 axios - Promise-based HTTP client for the browser and Node.js.
 
 - Testing
-Unit tests are located in the tests/ directory.
+- Unit tests are located in the tests/ directory.
 
-Tests use Jest and Testing Library for React.
+- Tests use Jest and Testing Library for React.
 
-Run tests with the command:
+- Run tests with the command:
 
-bash
+- bash
 Copy code
 npm test
 
