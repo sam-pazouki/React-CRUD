@@ -1,9 +1,9 @@
 ![Screenshot 2024-06-30 233004](https://github.com/sam-pazouki/React-CRUD/assets/68926038/2b960ba3-893b-458b-bcd8-52347920cf3f)
 
--Book Management App
+- Book Management App
 A CRUD (Create, Read, Update, Delete) application for managing books, built with React, Redux, and TypeScript.
 
-Table of Contents
+- Table of Contents
 Overview
 Features
 Demo
