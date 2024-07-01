@@ -6,7 +6,6 @@ A CRUD (Create, Read, Update, Delete) application for managing books, built with
 - Table of Contents
 Overview
 Features
-Demo
 Installation
 Usage
 Folder Structure
@@ -14,11 +13,10 @@ Technologies Used
 Testing
 Future Improvements
 Contributing
-License
-Overview
+- Overview
 This project is a web application that allows users to perform CRUD operations on a list of books. It utilizes React for the frontend view layer, Redux for state management, and TypeScript for type safety. The application interacts with a mock API server using json-server for simulating backend operations.
 
-Features
+- Features
 View a list of books with pagination.
 Add a new book.
 Edit an existing book.
@@ -60,7 +58,7 @@ Copy code
 npm start
 Open your browser and visit http://localhost:3000 to view the application.
 
-Folder Structure
+- Folder Structure
 graphql
 Copy code
 src/
@@ -93,7 +91,8 @@ src/
 ├── README.md           # Project README file
 ├── vite.config.ts      # Vite configuration
 ├── db.json             # Mock data for json-server
-Technologies Used
+
+- Technologies Used
 React - Frontend library for building user interfaces.
 Redux - State management library for managing application state.
 TypeScript - Superset of JavaScript that adds static types.
@@ -102,7 +101,8 @@ React Router - Declarative routing for React applications.
 Testing Library - Testing utilities for React applications.
 CSS Modules - Scoped CSS styling.
 axios - Promise-based HTTP client for the browser and Node.js.
-Testing
+
+- Testing
 Unit tests are located in the tests/ directory.
 
 Tests use Jest and Testing Library for React.
@@ -112,19 +112,9 @@ Run tests with the command:
 bash
 Copy code
 npm test
-Future Improvements
-Implement sorting and filtering of book list.
-Enhance error handling with more specific messages.
-Add authentication and user roles.
-Improve accessibility features.
-Internationalization (i18n) for multilingual support.
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your improvements.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-This README template provides a comprehensive guide to your project, outlining its features, installation steps, usage instructions, folder structure, technologies used, testing approach, future improvements, contribution guidelines, and licensing information. Adjust the sections as per your specific project details and preferences.
+
 
 
 
