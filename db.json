@@ -1,0 +1,154 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee"
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell"
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald"
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen"
+    },
+    {
+      "id": "5",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger"
+    },
+    {
+      "id": "6",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id": "7",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": "8",
+      "title": "Animal Farm",
+      "author": "George Orwell"
+    },
+    {
+      "id": "9",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë"
+    },
+    {
+      "id": "10",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id": "11",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury"
+    },
+    {
+      "id": "12",
+      "title": "Moby-Dick",
+      "author": "Herman Melville"
+    },
+    {
+      "id": "13",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy"
+    },
+    {
+      "id": "14",
+      "title": "The Odyssey",
+      "author": "Homer"
+    },
+    {
+      "id": "15",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky"
+    },
+    {
+      "id": "16",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky"
+    },
+    {
+      "id": "17",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë"
+    },
+    {
+      "id": "18",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri"
+    },
+    {
+      "id": "19",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez"
+    },
+    {
+      "id": "20",
+      "title": "Brave New World",
+      "author": "Aldous Huxley"
+    },
+    {
+      "id": "21",
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain"
+    },
+    {
+      "id": "22",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes"
+    },
+    {
+      "id": "23",
+      "title": "The Iliad",
+      "author": "Homer"
+    },
+    {
+      "id": "24",
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert"
+    },
+    {
+      "id": "25",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde"
+    },
+    {
+      "id": "26",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger"
+    },
+    {
+      "id": "27",
+      "title": "The Metamorphosis",
+      "author": "Franz Kafka"
+    },
+    {
+      "id": "28",
+      "title": "Great Expectations",
+      "author": "Charles Dickens"
+    },
+    {
+      "id": "29",
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas"
+    },
+    {
+      "id": "30",
+      "title": "Les Misérables",
+      "author": "Victor Hugo"
+    }
+  ]
+}

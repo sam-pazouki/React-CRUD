@@ -1,0 +1,215 @@
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #ffffff;
+  --accent-color: #f5a623;
+  --background-color: #f0f0f0;
+  --alternate-background-color: #e0e0e0;
+  --text-color: #333333;
+  --border-radius: 10px;
+  --padding: 10px;
+  --margin: 10px;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Heading styles */
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
+}
+
+/* Button styles */
+button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 var(--padding);
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--padding);
+  }
+
+  button {
+    padding: calc(var(--padding) / 2);
+    margin: calc(var(--margin) / 2);
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* BookList styles */
+.bookListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bookListHeader {
+  color: var(--primary-color);
+  text-align: left;
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: calc(var(--margin) / 2);
+}
+
+.searchBar input[type='text'] {
+  padding: calc(var(--padding) / 2);
+  margin-right: var(--margin);
+  flex: 1;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  height: 30px;
+}
+
+.bookItems {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.bookItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding);
+  margin: var(--margin);
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bookItem + .bookItem {
+  margin-top: var(--margin);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.deleteButton,
+.editButton,
+.saveButton,
+.cancelButton {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover,
+.editButton:hover,
+.saveButton:hover,
+.cancelButton:hover {
+  filter: brightness(90%);
+}
+
+.editForm .editActions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.editForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Input styles */
+.editForm input {
+  width: calc(100% - 20px);
+  padding: var(--padding);
+  margin: var(--margin) 0;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  box-sizing: border-box;
+  max-width: 500px;
+}
+
+.editLink {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: var(--margin);
+  transition: color 0.3s ease;
+}
+
+.editLink:hover {
+  color: darken(var(--primary-color), 10%);
+}
+
+.pagination {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+  margin: var(--margin) 0;
+}
+
+.pagination li {
+  margin: 0 var(--margin);
+}
+
+.addBookLinkContainer {
+  margin-top: var(--margin);
+}
+
+.addBookLink {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.addBookLink:hover {
+  color: darken(var(--primary-color), 10%);
+}
+
+/* Optimistic UI */
+.bookItem.optimistic-update {
+  opacity: 0.7;
+  filter: grayscale(50%);
+}
