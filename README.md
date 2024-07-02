@@ -18,14 +18,14 @@
   
 This project is a web application that allows users to perform CRUD operations on a list of books. It utilizes React for the frontend view layer, Redux for state management, and TypeScript for type safety. The application interacts with a mock API server using json-server for simulating backend operations.
 
-- Features:
-  -View a list of books with pagination.
-  -Add a new book.
-  -Edit an existing book.
-  -Delete a book.
-  -Optimistic UI updates for a seamless user experience.
-  -Error handling and feedback for API operations.
-  -Responsive design for various screen sizes.
+ *Features:
+  - View a list of books with pagination.
+  - Add a new book.
+  - Edit an existing book.
+  - Delete a book.
+  - Optimistic UI updates for a seamless user experience.
+  - Error handling and feedback for API operations.
+  - Responsive design for various screen sizes.
 
 
 Installation
