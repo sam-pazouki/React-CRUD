@@ -31,10 +31,10 @@ To run this project locally, follow these steps:
 - Navigate into the project directory:
 
 - Install dependencies:
-  npm run build
-  npm run json-server
-  npm run lint
-  npm run dev
+  -npm run build
+  -npm run json-server
+  -npm run lint
+  -npm run dev
 
 
 - Technologies Used
