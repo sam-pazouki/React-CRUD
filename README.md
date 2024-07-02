@@ -14,7 +14,7 @@
   Testing.
 
 
-- Overview:
+ *Overview:
   
 This project is a web application that allows users to perform CRUD operations on a list of books. It utilizes React for the frontend view layer, Redux for state management, and TypeScript for type safety. The application interacts with a mock API server using json-server for simulating backend operations.
 
@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
   - npm run dev
 
 
-- Technologies Used
+ *Technologies Used
 - React - Frontend library for building user interfaces.
 - Redux - State management library for managing application state.
 - TypeScript - Superset of JavaScript that adds static types.
