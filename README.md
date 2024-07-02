@@ -6,12 +6,12 @@
 
 - Table of Contents:
   
-- Overview
-- Features
-- Installation
-- Usage
-- Technologies Used
-- Testing
+  Overview
+  Features
+  Installation
+  Usage
+  Technologies Used
+  Testing
 
 
 - Overview:
