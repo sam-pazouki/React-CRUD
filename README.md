@@ -2,16 +2,17 @@
 
 - Book Management App
 
-- A CRUD (Create, Read, Update, Delete) application for managing books, built with React, Redux, and TypeScript.
+ A CRUD (Create, Read, Update, Delete) application for managing books, built with React, Redux, and TypeScript.
 
-- Table of Contents
+- Table of Contents:
+  
 Overview
 Features
 Installation
 Usage
 Technologies Used
 Testing
-Contributing
+
 
 - Overview:
   
