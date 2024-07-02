@@ -13,7 +13,8 @@ Technologies Used
 Testing
 Contributing
 
-- Overview
+- Overview:
+  
 This project is a web application that allows users to perform CRUD operations on a list of books. It utilizes React for the frontend view layer, Redux for state management, and TypeScript for type safety. The application interacts with a mock API server using json-server for simulating backend operations.
 
 - Features:
